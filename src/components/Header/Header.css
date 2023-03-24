@@ -1,0 +1,71 @@
+.Header{
+    width: 100vw;
+    height: 8vh;
+    background-color: #2B2D31;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#sideBarButton{
+    height: 100%;
+    width: 5vw;
+    background-color: #35393F;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+#logo{
+    height: 1.8vh;
+    margin-left: 3vh;
+    padding-right: 5vh;
+    border-right: 0.1vh solid #5A6069;
+}
+#sideBarButton:hover{
+    background-color: #E46643;
+    cursor: pointer;
+}
+#documentName{
+    width: 67vw;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2vh;
+}
+#documentName p{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+#documentName input{
+    width: 30%;
+    padding-bottom: 0.5vh;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 1.5vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.1vh solid white;
+}
+#documentName input:focus{
+    outline: none;
+    border-bottom: 0.1vh solid #E46643;
+}
+#saveTemplateButton{
+    background-color: #E46643;
+    padding: 1.5vh 1vh 1.5vh 1vh;
+    border: none;
+    border-radius: 0.8vh;
+    color: white;
+    font-size: 1.5vh;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+#saveTemplateButton:hover{
+    cursor: pointer;
+    background-color: #F39765;
+}

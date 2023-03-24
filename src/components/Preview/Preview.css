@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.Preview{
+    height: 100%;
+    width: 50%;
+    background-color: #F2F2F2;
+    border-right: 0.1vh solid #0000001f;
+    font-family: 'Roboto Slab', serif;
+}
+#previewTitle{
+    height: 5%;
+    color: #7C8187;
+    font-size: 1.5vh;
+    padding-top: 1.5vh;
+    padding-left: 1.5vh;
+    font-weight: 500;
+    letter-spacing: 0.5vh;
+}
+.markdown{
+    background-color: white;
+    overflow: scroll;
+    resize: none;
+    height: 88.6%;
+    width: 95.3%;
+    border: none;
+    padding: 2vh 2vh 2vh 2vh;
+    font-size: 1.5vh;
+}
+.markdown h1{
+    font-family: 'Roboto Slab', serif;
+    color: #35393F;
+    line-height: 8vh;
+}
+.markdown h2{
+    font-family: 'Roboto Slab', serif;
+    color: #35393F;
+    font-size: 3vh;
+    font-weight: 300;
+    line-height: 8vh;
+}
+.markdown h3{
+    font-family: 'Roboto Slab', serif;
+    color: #35393F;
+    line-height: 8vh;
+    font-size: 3vh;
+}
+.markdown h4{
+    font-family: 'Roboto Slab', serif;
+    color: #35393F;
+    font-size: 2vh;
+    line-height: 5vh;
+}
+.markdown h5{
+    font-family: 'Roboto Slab', serif;
+    color: #35393F;
+    font-size: 1.8vh;
+    line-height: 5vh;
+}
+.markdown h6{
+    font-family: 'Roboto Slab', serif;
+    color: #E46643;
+    font-size: 1.5vh;
+    line-height: 5vh;
+}
+.markdown p{
+    font-family: 'Roboto Slab', serif;
+    color: #7C8187;
+    line-height: 2.5vh;
+    margin-top: 1vh;
+}
+.markdown ol{
+    font-family: 'Roboto Slab', serif;
+    color: #7C8187;
+    line-height: 2.5vh;
+    padding-left: 3vh;
+}
+.markdown ul{
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    color: #7C8187;
+    line-height: 2.5vh;
+    padding-left: 3vh;
+}
+.markdown ul li::before {
+    content: "\2022";
+    color: #E46643;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+.markdown li{
+    font-family: 'Roboto Slab', serif;
+    color: #7C8187;
+    line-height: 4vh;
+}
+.markdown blockquote p{
+    width: 90%;
+    padding: 3vh 3vh 3vh 3vh;
+    background-color: #F5F5F5;
+    border-radius: 0.8vh;
+    border-left: 0.5vh solid #E46643;
+    margin-top: 2vh;
+    font-weight: 500;
+    color: #35393F ;
+}
+.markdown pre{
+    font-family: 'Roboto Mono', monospace;
+    width: 90%;
+    padding: 2vh 2vh 2vh 2vh;
+    background-color: #F5F5F5;
+    border-radius: 0.8vh;
+    line-height: 2.5vh;
+    letter-spacing: 0.1vh;
+    color: #35393F;
+    font-size: 1.3vh;
+    font-weight: 400;
+}
+.markdown code{
+    font-family: 'Roboto Mono', monospace;
+    color: #35393F;
+}
+.markdown a{
+    text-decoration: underline;
+    color: #35393F;
+}

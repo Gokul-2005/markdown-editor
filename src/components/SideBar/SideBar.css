@@ -1,0 +1,133 @@
+.SideBar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #1D1F22;
+    transition-property: margin-left;
+    transition-duration: 0.5s;
+    /* transform: translate(-70vh ,0vh); */
+}
+.SideBarBody{
+    position: absolute;
+    height: 100%;
+    width: 20vw;
+    background-color: #1D1F22;
+    transition-property: margin-left;
+    transition-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* transform: translate(-70vh ,0vh); */
+}
+#sidebarTitle{
+    width: 90%;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.8vh;
+    font-weight: 500;
+    color: #7C8187;
+    letter-spacing: 0.3vh;
+}
+#documentsDiv{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#documentsDiv div{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#documentsDiv div button{
+    background-color: transparent;
+    border: none;
+    padding: 2vh 2vh 1vh 2vh;
+    color: white;
+    font-size: 1.8vh;
+    font-weight: 500;
+    transition: 0.5s;
+}
+#documentsDiv div button:hover{
+    color: #E46643;
+    cursor: pointer;
+    border-bottom: 0.1vh solid #E46643;
+}
+#documentsDiv div img:hover{
+    cursor: pointer; 
+}
+#themeDiv{
+    width: 60%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #5A6069;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #5A6069;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #5A6069;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .themeImg{
+    height: 2vh;
+  }
